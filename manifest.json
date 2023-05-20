@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "GTM Copy Paste",
+    "version": "1.0",
+    "description": "Copy and paste Google Tag Manager values",
+    "permissions": [
+      "scripting",
+      "activeTab",
+      "contextMenus",
+      "storage" // Add the storage permission
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
+  
+  
